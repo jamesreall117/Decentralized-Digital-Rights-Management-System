@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/content-registration.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.license-creation]
+path = 'contracts/license-creation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
